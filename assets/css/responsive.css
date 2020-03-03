@@ -1,0 +1,432 @@
+/*http://www.templatemonster.com/demo/53370.html
+http://www.templatemonster.com/demo/60122.html*/
+@media (max-width:1280px){}
+@media (max-width:1024px){
+	.navbar-default .navbar-nav > li > a{
+		padding: 28px 4px;
+		font-size: 12px;
+	}
+	.carousel-caption.mycrousel{
+		bottom: 100px;
+	}
+	.news{
+		padding: 5px 10px;
+	}
+	.imp-dates li{
+		line-height: 40px;
+		font-size: 12px;
+	}
+    .form-container{
+		width: 100% !important;
+	}
+	/*------------------------------------------*/
+	/*	  Intro Section
+	/*------------------------------------------*/
+	
+	#intro_form {padding-left: 15px;}
+	.intro_button {margin-top: 30px;}
+	
+	/*------------------------------------------*/
+	/*	  Video Content Settings
+	/*------------------------------------------*/ 
+
+	.video-block {padding-bottom: 68.25%;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {width: 100%;}
+}
+@media (max-width:980px){
+	.navbar-header{
+		text-align: center;
+		width: 100%;
+	}
+	.navbar.navbar-default.mynavbar.sticky-header{
+		position: inherit;
+	}
+	.imp-dates li{
+		line-height: 25px;
+	}
+	.imp-dates{
+		height: 305px;
+	}
+	.imp-dates li span.new-img{
+		display: none;
+	}
+				.medical-school-box {
+    width: 35%;
+}
+.mdl-services-box {
+        width: 30%;
+    min-height: 782px;
+}
+.medical-colleges-box {
+        min-height: 782px;
+    width: 35%;
+}
+.asia-link-box {
+}
+.countries-box {
+    width: 100%;
+}
+.titlebar h1 { font-size: 32px; }
+	.titlebar p {font-size: 16px; }
+	
+	/*------------------------------------------*/
+	/*	 Header
+	/*------------------------------------------*/
+
+	#header { margin-bottom: 40px; }
+	
+	/*------------------------------------------*/
+	/*	  Intro Section
+	/*------------------------------------------*/
+	
+	#intro_description, #logo_image, #social_icons { padding: 0;}
+	#intro_form {padding: 0 0 0 25px;}
+	#intro_description h1 {font-size: 32px;}
+	.intro_button {margin-top: 40px;}
+	
+	/*------------------------------------------*/
+	/*	 About Sections
+	/*------------------------------------------*/
+	
+	#about-1 {padding-bottom: 60px;}
+	#about-2 {padding-top: 60px;}
+	
+	#about-1-text {padding-right: 15px;}
+	#about-2-text {padding-left: 15px;}
+	
+	/*------------------------------------------*/
+	/*	 About-1 Image
+	/*------------------------------------------*/
+
+	#about-1-img img {padding: 0 60px;}
+		
+	/*------------------------------------------*/
+	/*	 Video Holder
+	/*------------------------------------------*/
+	
+	#video_holder {margin-bottom: 40px;}
+	
+	/*------------------------------------------*/
+	/*	 Call to Action
+	/*------------------------------------------*/
+	
+	#call-to-action h1 {font-size: 32px; padding: 0;}
+	#call-to-action p {font-size: 18px; padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Social Icons  
+	/*------------------------------------------*/
+	
+	#footer_icons { margin:6px 0; }
+	.footer-socials { display: inline-block; float: right;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {margin: 40px auto 5px; width: 55%; float: none !important;}
+	#newsletter-paragraph {float: none !important;}
+
+}
+@media (max-width:800px){
+	.carousel-caption.mycrousel h2{
+		font-size: 30px;
+	}
+	.news-wrapper h3 {
+		font-size: 19px;
+	}
+	.news{
+		padding: 4px 10px;
+	}
+	
+	.form-area a{
+		display: block;
+	}
+}
+@media (max-width:767px){
+	.carousel-caption.mycrousel{
+		padding: 5px;
+	}
+	.heading.mobile-view{
+		margin-bottom: 0;
+	}
+	.news-update-area{
+		margin-top: 15px;
+	}
+	.imp-dates li{
+		line-height: 40px;
+	}
+	.explore-right-area{
+		margin-bottom: 30px;
+	}
+	.explore-left-area {
+		margin: 15px 0;
+	}
+	.explore-left-area img{
+		width: 100%;
+	}
+	.form-area{
+		margin: 15px 0;
+		text-align: center;
+	}
+	.form-area input{
+		width: 100%;
+	}
+	.navbar-default .navbar-nav > li > a{
+		padding: 10px;
+	}
+	.navbar-toggle{
+		margin-top: 20px;
+	}
+			.medical-school-box {
+    width: 30%;
+}
+.mdl-services-box {
+        width: 25%;
+    min-height: 782px;
+}
+.medical-colleges-box {
+        min-height: 782px;
+    width: 45%;
+}
+.asia-link-box {
+}
+.countries-box {
+    width: 100%;
+}
+	/*------------------------------------------*/
+	/*	 Responsive Menu
+	/*------------------------------------------*/
+	
+	.navbar-nav { margin: 0 -15px; border-top: 1px solid #ddd; background-color: #f6f6f6;}	
+	.navbar-brand { padding: 15px 15px 10px 30px;}
+	.navbar-nav > li { text-align: center;}
+	.navbar-nav > li > a { line-height: 44px; text-align: center; display: inline-block; text-align: center;}
+	
+	.container { overflow: hidden;}
+
+	#intro_form, #logo_image, #social_icons, #about-1, #about-2, #features, #faq, #clients { padding-left: 45px; padding-right: 45px;}
+	
+	/*------------------------------------------*/
+	/*	 Header
+	/*------------------------------------------*/
+
+	#header { margin-bottom: 50px; }
+	#header img {padding: 0 15px 0 0;}
+
+	/*------------------------------------------*/
+	/*	  Intro Section
+	/*------------------------------------------*/
+	
+	#intro_description  { margin-bottom: 40px; padding: 0 45px;}
+	#intro_description h1 {font-size: 32px;}
+	.intro_button {margin-top: 20px;}
+	
+	.form_register {width: 60%; }
+	
+	/*------------------------------------------*/
+	/*	 Features
+	/*------------------------------------------*/
+	
+	.feature-box {margin-bottom: 30px;}
+	
+	/*------------------------------------------*/
+	/*	 Call to Action
+	/*------------------------------------------*/
+	
+	#call-to-action p {padding: 0 4%;}
+	
+	/*------------------------------------------*/
+	/*	 Footer
+	/*------------------------------------------*/
+	
+	#footer_nav { text-align: center; margin-bottom: 30px;}
+	.footer-nav {display: inline-block; margin: 0 auto;}
+	#footer_copy p {margin-left: 0;}
+	.footer-nav li {padding: 5px 10px 5px;}
+		
+	/*------------------------------------------*/
+	/*	 Footer Social Icons  
+	/*------------------------------------------*/
+	
+	.footer-socials {float: none;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {margin: 25px auto 5px; width: 50%;}
+
+}
+@media (max-width:640px){
+	.carousel-caption.mycrousel h2 {
+	    font-size: 25px;
+	    margin-top: 0;
+	}
+	.carousel-caption.mycrousel{
+		bottom: 60px;
+	}
+	.mobile-view-footer, .ftr{
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+	}
+	.mobile-view-footer a{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	.mobile-view-top-header{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		float: inherit !important ;
+		margin-top: 10px;
+	}
+		.medical-school-box {
+    width: 50%;
+}
+.mdl-services-box {
+    width: 50%;
+	min-height:782px;
+}
+.medical-colleges-box {
+    width: 100%;
+}
+.asia-link-box {
+}
+.countries-box {
+    width: 100%;
+}
+
+}
+@media (max-width:480px){
+	.carousel-indicators{
+		display: none;
+	}
+	.carousel-caption.mycrousel{
+		bottom: 20px;
+	}
+	.carousel-caption.mycrousel h2{
+		font-size: 22px;
+	}
+	.carousel-caption.mycrousel p{
+		font-size: 12px;
+	}
+	.mobile-view-top-header ul{
+		float: inherit;
+	}
+	.sp-contact-info{
+		text-align: center;
+	}
+	.mobile-view-btn{
+		display: none;
+	}
+		.medical-school-box {
+    width: 100%;
+}
+.mdl-services-box {
+    width: 100%;
+}
+.medical-colleges-box {
+    width: 100%;
+}
+.asia-link-box {
+}
+.countries-box {
+    width: 100%;
+}
+	#intro_description, #intro_form, #logo_image, #social_icons, #about-1, #about-2, #features, #faq, #clients { padding-left: 20px; padding-right: 20px;}
+	
+	.intro_feature p {font-size: 14px; }	
+	.form_register {width: 90%; }
+	
+	#about-1-img img {padding: 0;}
+	#about-2-img img {margin-top: 0;padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {margin: 25px auto 5px; width: 70%;}
+}
+@media (max-width:360px){
+	.carousel-caption.mycrousel{
+		bottom: 0;
+	}
+	.carousel-caption.mycrousel h2{
+		font-size: 17px;
+	}
+	.carousel-caption.mycrousel p{
+		font-size: 11px;
+	}
+	.medical-school-box {
+    width: 100%;
+}
+.mdl-services-box {
+    width: 100%;
+	min-height:340px;
+}
+.medical-colleges-box {
+    width: 100%;
+	min-height:400px;
+}.asia-link-box {
+}
+.countries-box {
+    width: 100%;
+}
+}
+@media (max-width:320px){
+	.navbar-toggle, .navbar-toggle.collapsed{
+		float: inherit;
+		margin-right:8px;
+	}
+	.imp-dates li{
+		text-align: center;
+	}
+	.medical-school-box {
+    width: 100%;
+}
+.mdl-services-box {
+    width: 100%;
+	min-height:340px;
+}
+.medical-colleges-box {
+    width: 100%;
+	min-height:400px;
+}
+.titlebar h1 { font-size: 28px; }
+	
+	#intro_form, #logo_image, #social_icons, #about-1, #about-2, #features, #faq, #clients { padding-left: 5px; padding-right: 5px;}
+	
+	/*------------------------------------------*/
+	/*	  Header
+	/*------------------------------------------*/
+	
+	#logo_image {width: 100%; text-align: center; margin-bottom: 15px; float: none !important;}
+	#logo_image img { padding: 0;}
+	#social_icons {width: 100%; text-align: center; float: none !important;}
+	
+	.customNavigation {display: none;}
+	
+	/*------------------------------------------*/
+	/*	  Intro Section
+	/*------------------------------------------*/
+	
+	#intro_description { padding-left: 15px; padding-right: 15px;text-align: center;}
+	#intro_description h1 {text-align: center;}
+	
+	
+	/*------------------------------------------*/
+	/*	 Footer Newsletter Form
+	/*------------------------------------------*/
+	
+	.subscribe-form {margin: 25px auto 5px; width: 100%;}
+
+
+}

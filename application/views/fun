@@ -1,0 +1,89 @@
+<?php
+
+  if($this->session->userdata('email'))
+  {
+    include('usernav.php');
+  }
+  else
+  {
+   include('navbar.php');
+  }
+?>
+
+
+
+<div class="container-fluid abt-banner" style="padding:0;">
+<div class="abt-banner-dark">
+</div>
+</div>
+
+<div class="container-fluid">
+<div class="container">
+<div class="abt-info">
+<ol class="breadcrumb mx-crumb">
+<li><a href="<?=base_url()?>">Home</a></li>
+<li><a href="<?=base_url()?>">Study Medical In China</a></li>
+<li class="active">Shihezi University
+</li>
+</ol>
+<div class="abt-details">
+<h4 class="tabpane-head1">Shihezi University</h4>
+<div class="row" style="margin-bottom:30px;">
+<div class="col-md-12">
+<p>Shihezi University is a university in Shihezi, Xinjiang, founded in April 1996 under the integration of some former institutional colleges by the Ministry of Education and the Xinjiang Production and Construction Corps. It is a national key university.[1] In August 2000, the University was a key University designated by China' s government to be constructed in West China.</p> 
+
+<p>Shihezi University is a new comprehensive university, located in Shihezi, the Garden City, located by the river of Manas on the northern foot of the Tianshan Mountains in Xinjiang.In August 2000, the Central Government designated the university as a key institution to develop in northwestern China.Shihezi University was ranked among the key constructed university under the “211 project” in Dec 31, 2008.</p>
+
+<p><img src="<?= base_url()?>assets/images/shihezi-university-2.jpg" class="img-left">Shihezi University offers ten specialties--Agriculture, Medicine, Engineering, Economics and Trade, Management, Literature and Arts, Sciences, Education, Law, and History. The university has 20 colleges, offering 4 doctorate degrees, 52 masters degrees, 66 bachelor’s degrees programs, 5 specialties that enroll on-job-teachers for shihezi university masters degrees, 1 post-doctoral scientific work stations, 2 post-doctoral mobile stations. The university has jointly set up graduate education bases with Peking University and Tianjin University, as well as a program for culture-oriented quality-education for Chinese university students. The university has 11 disciplines of Ministry of Agriculture, Xinjiang Uygur Autonomous Region (XUAR) and the Xinjiang Production and Construction Corps (XPCC), 3 key laboratories co-constructed and supported by the Ministry of Education, the Ministry of Science and Technology, and the XPCC, it has 2 key laboratories of XPCC, 2 key bases for art and scientific research and 24 graduate schools and research centers. The university has become one of key scientific research bases of XPCC and XUAR.</p>
+
+<p>The University now has a faculty of 2,607, including 1,527 full-time teachers, 2 specially-engaged academician of the Chinese Academy of Engineering, 152 professors, 450 associate professors. The university employs more than 10 foreign experts and teachers every year. The students of the university come from 31 provinces and regions. The total enrollment of students numbers 30,032, including 21,989 undergraduates 1,906 postgraduates and 245 international students from eight countries, such as United States, Russia, Pakistan, Kazakstan, South Korea etc.</p>
+
+<p>The University is equipped with the most up-to-date teaching and scientific research facilities. It has a well-equipped library, a large gymnasium, a multi-functional stadium and modernized teaching buildings. The University covers 1,870, 000 square meters. It has 950,000 square meters of building, and the area of its laboratories is 170,000 square meters .The library has a collection of 2,900,000 Chinese and foreign books and periodicals, and is only one model project in Xinjiang, as university digital libraries in State High-tech Project 863.There is also a book collection spot of UN's Food and Agriculture Organization (FAO) in it.</p>
+</div>
+</div>
+
+<div class="row" style="margin-bottom:30px;">
+<div class="col-md-12">
+<h5 class="tabpane-head">Faculty</h5>
+<p><img src="<?= base_url()?>assets/images/shihezi-university-3.jpg" class="img-left">The University has 2,611 staff. There are 1,560 full-time teachers including a specially-engaged academician of the Chinese Academy of Engineering, 166 professors, 489 associate professors, 58 experts and scholars receiving outstanding achievement awards at national and provincial level, and 80 distinguished experts and scholars receiving special subsidies from the government.</p>
+</div>
+</div>
+
+<div class="row" style="margin-bottom:30px;">
+<div class="col-md-12">
+<h5 class="tabpane-head">Student</h5>
+<p>The students come from 31 provinces and regions of China. The student population is currently 30,261, including 22,635 undergraduates, 2120 postgraduates for Doctoral Degree and Master Degree. There is also a section of foreign students, M.B.B.S. Foreign students mainly from Russia, Kazakhstan, Pakistan, Kyrgyzstan, India, South Korea etc</p>
+</div>
+</div>
+
+<div class="row" style="margin-bottom:30px;">
+<div class="col-md-12">
+<h5 class="tabpane-head">Accommodation</h5>
+<p>Double Room: 5000RMB/Year/Person,(TV, Telephone, Refrigerator, Electric, Fan, Llavatory,Shower, Public Washing Machine)</p>
+</div>
+</div>
+
+<div class="row" style="margin-bottom:30px;">
+<div class="col-md-12">
+<h5 class="tabpane-head">Living Facilities</h5>
+<p>The university has 3 campuses. All have hospitals, markets, shops, post offices library, bank, bookshops and students dining halls cost about 12~20RMB Yuan/person/day. There are basketball courts, tennis courts, football field, and gymnasium for badminton, table tennis and fitness rooms.</p>
+</div>
+</div>
+
+<div class="row" style="margin-bottom:30px;">
+<div class="col-md-12">
+<h5 class="tabpane-head">Tuition Fee</h5>
+<ul class="tab-panelist">
+<li><strong>General Medicine -</strong>26000 RMB/Year</li>
+<li><strong>Hostel –</strong>5000 RMB/Year</li>
+</ul>
+</div>
+</div>
+
+</div> 
+</div>
+</div>
+
+
+
+<?php include('footer.php');?>
