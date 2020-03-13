@@ -108,21 +108,6 @@
 </section>
 
 
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<?php
-if($this->session->flashdata('contactalt'))
-{
-?>
-<script type="text/javascript">
-  
- swal ( "" ,  "Submit Successfully" ,  "success" )
-
-
-</script>
-<?php
-}
-?>
-
 
 
 

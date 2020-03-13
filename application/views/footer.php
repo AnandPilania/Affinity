@@ -107,6 +107,11 @@
                   <i  class="fab fa-youtube" style="font-size: 18px;"></i>
                 </a>
               </li>
+              <li>
+                  <a href="https://api.whatsapp.com/send?phone=+919971698297" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+              </li>
             </ul>
           </div>
         </div>

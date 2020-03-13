@@ -678,6 +678,51 @@
 
 
 
+<section class="explaore padding-TB-40">
+ <div class="container">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <div class="formbox" style="border: 1px solid #007CC2;padding:10px;border-radius:8px;">
+      <h2 class="text-center">MD MS India</h2>
+                   <form action="<?= base_url('Welcome/insertcontact')?>" method="post">
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" class="form-control" name="name"  placeholder="Enter Your Name" required>
+    <input type="hidden" name="source" value="MD MS India">
+  </div>
+
+ <div class="form-group">
+    <label>Email</label>
+    <input type="email" class="form-control" name="email" placeholder="name@example.com" required>
+  </div>
+
+ <div class="form-group">
+    <label>Phone No.</label>
+    <input type="text" class="form-control" name="phone"  placeholder="Enter Your Phone No." pattern="[789][0-9]{9}" minlength="10" maxlength="10" required>
+  </div>
+
+
+  <div class="form-group">
+    <label>Query</label>
+    <textarea class="form-control" name="message" rows="3" required></textarea>
+  </div>
+
+    <div class="form-group text-center">
+
+    <input type="submit" class="text-center btn btn-primary" value="Apply Now">
+
+    </div>
+
+</form>
+    </div>
+  </div>
+  </div>
+ </div>
+</section>
+
+
+
 
 
 <?php include('footer.php');?>

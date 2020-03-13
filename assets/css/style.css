@@ -1496,7 +1496,17 @@ margin-bottom:30px!important;}
 {
     .icon-bar 
     {
-        display: none;
+      right: 0;
+      left: auto;
+      bottom: -50px;
+
+
+    }
+    .icon-bar a 
+    {
+        display: block;
+        padding:10px;
+        font-size: 10px;
     }
 }
 

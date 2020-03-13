@@ -102,39 +102,48 @@ public function inquiry()
 }
 public function engineering()
 {
-	 $this->load->view('engineering');
+	$description['description']=" Apart from IITs, many well-named engineering colleges in India that provides good quality education get info of admission process, courses, ranking, Placement";
+	 $this->load->view('engineering',$description);
 }
 public function applynow()
 {
-		$this->load->view('apply');
+	    $description['description']=" Apply now on Affinity education Consultant and get experienced advice related to Engineering, Medical, MBA courses by our experts. ";
+		$this->load->view('apply',$description);
 }
 public function pg_abroad()
 {
-	$this->load->view('pg-abroad');
+	$description['description']="PG Abroad Medical is like a dream of Every Indian MBBS student, because there are countless benefits to study in MCI approved colleges in foreign";
+	$this->load->view('pg-abroad',$description);
 }
 public function pg_india()
 {
-	$this->load->view('pg-india');
+	$description['description']="Get the information of Top & Well-named Medical colleges for PG India, Fee structure, PG courses offered by them, ranking, cut-off, Placement, eligibility criteria";
+	$this->load->view('pg-india',$description);
 }
 public function mbbs_abroad()
 {
-	$this->load->view('mbbs-abroad');
+	$description['description']="To study MBBS abroad in MCI approved medical colleges is pocket friendly for Indian Medical students, worldwide recognized degree and much more";
+	$this->load->view('mbbs-abroad',$description);
 }
 public function mba_abroad()
 {
-	$this->load->view('mba-abroad');
+    $description['description']="All the information related to MBA Abroad, fee structure, Entrance exam, scholarship, admission process, Ranking and placement of top University outside India.";
+	$this->load->view('mba-abroad',$description);
 }
 public function mba_india()
 {
-	$this->load->view('mba-india');
+    $description['description']=" MBA is the most popular Masters course in India, it trains students for Upcoming Business challenges, get info of MBA India Ranking, fee, placement, admission";
+	$this->load->view('mba-india',$description);
 }
 public function neetpgrankpredictor()
 {
-	$this->load->view('neet-pg-rank-predictor');
+	 $description['description']="NEET PG (National Eligibility cum Entrance Exam for Post Graduate) is an exam conducted by NBE, all the info of NEET PG exam, important dates and counseling   ";
+	$this->load->view('neet-pg-rank-predictor',$description);
 }
 public function jeemainrankpredictor()
 {
-	$this->load->view('jee-main-rank-predictor');
+     $description['description']=" Predict your JEE Main rank before the announcement of final results by National Testing Agency, process to apply, syllabus, rank predictor, results check";
+	$this->load->view('jee-main-rank-predictor',$description);
 }
 public function mbapgdm()
 {
@@ -174,6 +183,7 @@ public function mbbsindia()
 }
 public function engineeringinindia()
 {
+
 	$title['title']="ENGINEERING IN INDIA";
 	$this->load->view('engineering-in-india',$title);
 }
@@ -571,7 +581,8 @@ public function victorbabesuniversityofmedicineandpharmacytimisoara()
 }
 public function neetpgmdms()
 {
-	$this->load->view('neet-pg-md-ms.php');
+	$description['description']="NEET PG MD MS admission is conducted by a planned process and the first step is to quality the NEET PG exam conducted by National Board of Examination";
+	$this->load->view('neet-pg-md-ms.php',$description);
 }
 public function smolenskstatemedicaluniversity()
 {
@@ -658,8 +669,9 @@ public function orenburgstatemedical()
 
 public function blog()
 {
+	$description['description']="Read the latest and well researched blog based on engineering, medical and MBA. Fresh courses of your interest and all information of college rank and culture";
 	$data['blog']=$this->Usermodel->fetchallblog();
-	$this->load->view('allblog',$data);
+	$this->load->view('allblog',array_merge($description, $data));
 }
 public function blogdetail()
 {
@@ -671,17 +683,18 @@ public function blogdetail()
 }
 public function contact()
 {
-	$this->load->view('contact');
+	$description['description']="Contact us through many channels to get experienced advisors and consultant to choose perfect course and ideal college according to your Budget.";
+	$this->load->view('contact',$description);
 }
 public function insertcontact()
 {
 	$data=$this->input->post();
 	 date_default_timezone_set('asia/kolkata');
-		$date=date('d/m/y h:i');
+		$date=date('d/m/Y');
 		$data['dateandtime']=$date;
     $this->Usermodel->insert_contact($data);
     $this->session->set_flashdata('contactalt','MSG');
-    return redirect('Welcome/contact');
+    return redirect('Welcome/index');
 }
 
 

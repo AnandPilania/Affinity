@@ -13,7 +13,12 @@
   }
 ?>
 
-
+<style type="text/css">
+  .global-area
+  {
+    margin-bottom: 20px;
+  }
+</style>
 
 <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin: 0px;">
       <a class="logo" href="http://affinityeducation.in"><img src="<?= base_url()?>assets/images/logo/web-logo1.png"></a>  
@@ -527,14 +532,14 @@ We have a remarkable record of admission in top institutes approved by MCI (Medi
             <div class="relative-img-area">
               <img src="<?= base_url()?>assets/images/schoo1.jpg" alt="schoo1" class="img-responsive">
               <div class="overlap-area">
-                <h4><a href="#">GRE</a></h4>
+                <h4><a >GRE</a></h4>
               </div>
             </div>
             
             <div class="img-content">
               <h4><a href="#">Graduate Record Examination</a></h4>
               <p>GRE stands for Graduate Record Examinations. It is a standardised aptitude exam with a pre-defined syllabus. It is one of the most widely accepted admissions tests for graduate and business<br> school...</p>
-              <a href="#" class="about-btn hvr-bounce-to-right">Read More</a>           </div>
+                     </div>
           </div>
       </div>
     </div> 
@@ -545,13 +550,13 @@ We have a remarkable record of admission in top institutes approved by MCI (Medi
           <div class="relative-img-area">
               <img src="<?= base_url()?>assets/images/book.jpg" alt="book" class="img-responsive">
               <div class="overlap-area">
-                <h4><a href="#">GMAT</a></h4>
+                <h4><a >GMAT</a></h4>
               </div>
             </div>
           <div class="img-content">
             <h4><a href="#">Graduate Management Admission Test</a></h4>
             <p>GMAT stands for Graduate Management Admission Test. It is a standardised aptitude exam with a pre-defined syllabus and is required for admission to many of the world's leading Business<br> Schools...</p>
-            <a href="#" class="about-btn hvr-bounce-to-right">Read More</a>         </div>
+                 </div>
         </div>
       </div>
       </div>
@@ -561,13 +566,13 @@ We have a remarkable record of admission in top institutes approved by MCI (Medi
           <div class="relative-img-area">
               <img src="<?= base_url()?>assets/images/bookcase.jpg" alt="bookcase" class="img-responsive">
               <div class="overlap-area">
-                <h4><a href="#">SAT</a></h4>
+                <h4><a >SAT</a></h4>
               </div>
             </div>
           <div class="img-content">
             <h4><a href="#">Scholastic Aptitude Test</a></h4>
             <p>SAT stands for Scholastic Aptitude Test. It is a standardized test with a pre-defined syllabus that is designed to test. It is one of the most widely accepted admissions tests for graduate and business school...</p>
-            <a href="#" class="about-btn hvr-bounce-to-right">Read More</a>         </div>
+                 </div>
         </div>
       </div>
       </div>
@@ -578,13 +583,14 @@ We have a remarkable record of admission in top institutes approved by MCI (Medi
           <div class="relative-img-area">
               <img src="<?= base_url()?>assets/images/bookcase.jpg" alt="bookcase" class="img-responsive">
               <div class="overlap-area">
-                <h4><a href="#">SAT</a></h4>
+                <h4><a>SAT</a></h4>
               </div>
             </div>
           <div class="img-content">
             <h4><a href="#">Scholastic Aptitude Test</a></h4>
             <p>SAT stands for Scholastic Aptitude Test. It is a standardized test with a pre-defined syllabus that is designed to test. It is one of the most widely accepted admissions tests for graduate and business school...</p>
-            <a href="#" class="about-btn hvr-bounce-to-right">Read More</a>         </div>
+           
+                  </div>
         </div>
       </div>
       </div>
@@ -595,13 +601,13 @@ We have a remarkable record of admission in top institutes approved by MCI (Medi
           <div class="relative-img-area">
               <img src="<?= base_url()?>assets/images/bookcase.jpg" alt="bookcase" class="img-responsive">
               <div class="overlap-area">
-                <h4><a href="#">SAT</a></h4>
+                <h4><a>SAT</a></h4>
               </div>
             </div>
           <div class="img-content">
             <h4><a href="#">Scholastic Aptitude Test</a></h4>
             <p>SAT stands for Scholastic Aptitude Test. It is a standardized test with a pre-defined syllabus that is designed to test. It is one of the most widely accepted admissions tests for graduate and business school...</p>
-            <a href="#" class="about-btn hvr-bounce-to-right">Read More</a>         </div>
+            </div>
         </div>
       </div>
       </div>
@@ -610,7 +616,196 @@ We have a remarkable record of admission in top institutes approved by MCI (Medi
 
     </div>
   </div>
+
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h3 class="heading">Our Services</h3>
+      </div>
+
+ 
+       <div class="col-md-4">
+    <div class="col-sm-12">
+        <div class="global-area">
+          <div class="relative-img-area">
+              <img src="<?= base_url()?>assets/images/services/mbbsindia.jpg" alt="bookcase" class="img-responsive">
+              <div class="overlap-area" style="display:block;">
+                <h4><a href="<?= base_url('PG-India')?>">MBBS India</a></h4>
+              </div>
+            </div>
+              <div class="img-content">
+              <p>These institutions may vary from stand-alone colleges that train doctors to conglomerates that offer training related in all aspects of medical care.</p>
+              <a href="<?= base_url('PG-India')?>" class="about-btn hvr-bounce-to-right">Read More</a>    
+              </div>
+
+        </div>
+      </div>
+      </div>
+
+       <div class="col-md-4">
+    <div class="col-sm-12">
+        <div class="global-area">
+          <div class="relative-img-area">
+              <img src="<?= base_url()?>assets/images/services/mbbsabroad.jpg" alt="bookcase" class="img-responsive">
+              <div class="overlap-area" style="display:block;">
+                <h4><a href="<?= base_url('Mbbs-Abroad')?>">MBBS Abroad</a></h4>
+              </div>
+            </div>
+           <div class="img-content">
+              <p>We specifically ensure that in whatever you country you want to pursue education is actually available in terms of the potential for success.</p>
+              <a href="<?= base_url('Mbbs-Abroad')?>" class="about-btn hvr-bounce-to-right">Read More</a>    
+              </div>
+
+        </div>
+      </div>
+      </div>
+
+
+         <div class="col-md-4">
+    <div class="col-sm-12">
+        <div class="global-area">
+          <div class="relative-img-area">
+              <img src="<?= base_url()?>assets/images/services/msmsindia.jpg" alt="bookcase" class="img-responsive">
+              <div class="overlap-area" style="display:block;">
+                <h4><a href="<?= base_url('neet-pg-md-ms')?>">MD MS India</a></h4>
+              </div>
+            </div>
+           <div class="img-content">
+              <p>NEET PG is an entrance exam to get MD MS admission courses and different PG diploma courses.</p>
+              <a href="<?= base_url('neet-pg-md-ms')?>" class="about-btn hvr-bounce-to-right">Read More</a>    
+              </div>
+
+        </div>
+      </div>
+      </div>
+
+
+            <div class="col-md-4">
+    <div class="col-sm-12">
+        <div class="global-area">
+          <div class="relative-img-area">
+              <img src="<?= base_url()?>assets/images/services/mdmsabroad.jpg" alt="bookcase" class="img-responsive">
+              <div class="overlap-area" style="display:block;">
+                <h4><a href="<?= base_url('PG-Abroad')?>" >MD MS Abroad</a></h4>
+              </div>
+            </div>
+
+            <div class="img-content">
+              <p>PG MD MS ABROAD especially in United Kingdom is a dream of many medical practitioners.</p>
+              <a href="<?= base_url('PG-Abroad')?>" class="about-btn hvr-bounce-to-right">Read More</a>    
+              </div>
+
+        </div>
+      </div>
+      </div>
+
+        <div class="col-md-4">
+    <div class="col-sm-12">
+        <div class="global-area">
+          <div class="relative-img-area">
+              <img src="<?= base_url()?>assets/images/services/engg.jpg" alt="bookcase" class="img-responsive">
+              <div class="overlap-area" style="display:block;">
+                <h4><a href="<?= base_url('engineering-in-india')?>">Engineering</a></h4>
+              </div>
+            </div>
+
+             <div class="img-content">
+              <p>Engineering education in India starts after class 12 and is imparted through colleges and universities labelled as engineering colleges.</p>
+              <a href="<?= base_url('engineering-in-india')?>" class="about-btn hvr-bounce-to-right">Read More</a>    
+              </div>
+
+        </div>
+      </div>
+      </div>
+
+         <div class="col-md-4">
+    <div class="col-sm-12">
+        <div class="global-area">
+          <div class="relative-img-area">
+              <img src="<?= base_url()?>assets/images/services/mbs.jpg" alt="bookcase" class="img-responsive">
+              <div class="overlap-area" style="display:block;">
+                <h4><a href="<?= base_url('mba-pgdm-admission')?>">MBA|PGDM India</a></h4>
+              </div>
+            </div>
+
+                <div class="img-content">
+              <p>MBA is the abbreviation for Master of Business Administration is a postgraduate program offered by various B Schools, management institutes and colleges and MBA departments of various Universities in India.</p>
+              <a href="<?= base_url('mba-pgdm-admission')?>" class="about-btn hvr-bounce-to-right">Read More</a>    
+              </div>
+
+        </div>
+      </div>
+      </div>
+
+
+             <div class="col-md-4">
+    <div class="col-sm-12">
+        <div class="global-area">
+          <div class="relative-img-area">
+              <img src="<?= base_url()?>assets/images/services/mbaabroad.jpg" alt="bookcase" class="img-responsive">
+              <div class="overlap-area" style="display:block;">
+                <h4><a href="<?= base_url('MBA-Abroad')?>">MBA Abroad</a></h4>
+              </div>
+            </div>
+
+             <div class="img-content">
+              <p>Time is money. So, here’s a 3-minute read to help you decide. Is an MBA degree programme at a business school abroad right for you? Will this key open a successful future career path.</p>
+              <a href="<?= base_url('MBA-Abroad')?>" class="about-btn hvr-bounce-to-right">Read More</a>    
+              </div>
+
+        </div>
+      </div>
+      </div>
+
+            <div class="col-md-4">
+    <div class="col-sm-12">
+        <div class="global-area">
+          <div class="relative-img-area">
+              <img src="<?= base_url()?>assets/images/services/2.png" alt="bookcase" class="img-responsive">
+              <div class="overlap-area" style="display:block;">
+                <h4><a href="http://ieltseduversity.in/" target="_blank">Study Abroad</a></h4>
+              </div>
+            </div>
+
+                <div class="img-content">
+              <p>Studying abroad in the United States is for a mobile global education and interculturalawareness building opportunities.Studying abroad is determined in the United States by political rationales of national security and foreign policy.</p>
+              <a href="http://ieltseduversity.in/" class="about-btn hvr-bounce-to-right">Read More</a>    
+              </div>
+
+        </div>
+      </div>
+      </div>
+
+         <div class="col-md-4">
+    <div class="col-sm-12">
+        <div class="global-area">
+          <div class="relative-img-area">
+              <img src="<?= base_url()?>assets/images/services/ok.jpg" alt="bookcase" class="img-responsive">
+              <div class="overlap-area" style="display:block;">
+                <h4><a href="http://ieltseduversity.in/countries/ielts-coaching/" target="_blank">IELTS Coaching</a></h4>
+              </div>
+            </div>
+
+                 <div class="img-content">
+              <p>We believe that only the best can bring out the best in you. IELTS Eduversity highly experienced & dedicated faculty makes your journey towards an exceptional band score, perfect</p>
+              <a href="http://ieltseduversity.in/countries/ielts-coaching/" class="about-btn hvr-bounce-to-right">Read More</a>    
+              </div>
+
+
+        </div>
+      </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
 </section>
+
+
+
 
 <!-- 
 <section class="education-area padding-TB-40">
@@ -862,6 +1057,20 @@ We have a remarkable record of admission in top institutes approved by MCI (Medi
 </section> -->
 <?php include('footer.php');?>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<?php
+if($this->session->flashdata('contactalt'))
+{
+?>
+<script type="text/javascript">
+  
+ swal ( "" ,  "Submit Successfully" ,  "success" )
+
+
+</script>
+<?php
+}
+?>
+
 
 
 <?php

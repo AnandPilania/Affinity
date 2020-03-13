@@ -3,7 +3,15 @@
 <html>
 <head>
     <title>Welcome To Affinity Education | Admission Consultants In Delhi | Education Consultants in Delhi</title>
-
+    <?php
+    error_reporting(0);
+    if($description)
+    {
+    ?>
+<meta name="description" content="<?= $description?>">
+     <?php
+   }
+   ?>
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
      <link rel="stylesheet" type="text/css" href="<?= base_url()?>/assets/css/style.css">
@@ -25,7 +33,7 @@
 
 
     
-</head>
+</head> 
 
 
     
@@ -171,6 +179,7 @@
           <li aria-haspopup="true"><a href="<?= base_url('contact-us')?>"> Contact Us </a></li>
         
         <li aria-haspopup="true" class="formobile"><a  href="<?= base_url('Student-Credit-Card')?>"> Student Credit Card</a></li>
+       <li aria-haspopup="true" class="formobile"><a href="<?= base_url()?>upload/Affinity-Profile-New-converted.pdf" download> Download Brochure</a></li>
 
 
                
